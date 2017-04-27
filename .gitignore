@@ -1,0 +1,5 @@
+reviewer
+submission_instructions.*
+build
+cmake-build-debug/
+.idea/
