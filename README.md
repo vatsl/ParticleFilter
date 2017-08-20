@@ -1,7 +1,14 @@
+# Particle Filter Implementation in C++
+
 ## Project Introduction
 Your robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
-In this project we implement a 2 dimensional particle filter in C++. The particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter will also get observation and control data. 
+In this project we implement a 2 dimensional particle filter in C++. The particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter will also get observation and control data.
+
+## A high level view of Particle Filter
+
+The flowchart below should make the working of a Particle Filter a bit clearer.
+![alt-text][image1]
 
 ## Running the Code
 Once you have this repository on your machine, `cd` into the repository's root directory and run the following commands from the command line:
@@ -40,4 +47,4 @@ These files contain observation data for all "observable" landmarks. Here observ
 > The vehicle's coordinate system is NOT the map coordinate system. 
 > The code will handle this transformation.
 
-
+[image1]: particle_filter_flowchart.png
